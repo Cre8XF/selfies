@@ -1,5 +1,3 @@
-const DATA_URL = './assets/data/images.json';
-
 // DOM
 const selfieRoger = document.getElementById('selfieRoger');
 const selfieLouise = document.getElementById('selfieLouise');
@@ -20,27 +18,30 @@ function cardTemplate(it, idx, list){
     const vid = document.createElement("video");
     vid.src = it.src;
     vid.controls = true;
+    vid.preload = "none"; // 👈 ikke last før play
     vid.className = "thumb";
     if(it.poster) vid.poster = it.poster;
     img.replaceWith(vid);
   } else {
+    // 👇 bruk thumbnail i grid
     img.src = it.thumb || it.src;
     img.alt = it.title || "Bilde";
-    img.dataset.index = idx;             // 👈 legg til index
+    img.loading = "lazy";       // 👈 last først når synlig
+    img.decoding = "async";     // 👈 avlast hovedtråden
+    img.dataset.index = idx;
     img.addEventListener('click', ()=> openLightbox(idx, list));
   }
 
-  // Selfie-klasse
   if(it.category === "selfie") node.classList.add("selfie");
 
   node.querySelector('.title').textContent = it.title || '';
-  node.querySelector('.tags').textContent = `${it.category} · ${it.subcategory}`;
+  node.querySelector('.tags').textContent = `${it.category} · ${it.subcategory || ""}`;
   return node;
 }
 
 function renderGallery(items, container){
   container.innerHTML = '';
-  container.classList.add('gallery'); // 👈 alltid grid-layout
+  container.classList.add('gallery');
   items.forEach((it, idx)=> container.append(cardTemplate(it, idx, items)));
 }
 
@@ -49,7 +50,7 @@ function updateStats(all){
   const selfies = all.filter(it=>it.category==="selfie").length;
   const specials = all.filter(it=>it.category==="special").length;
   const pets = all.filter(it=>it.category==="pets").length;
-  const videos = all.filter(it=>it.category==="video").length;
+  const videos = all.filter(it=>it.type==="video").length;
   stats.textContent = `${total} elementer totalt — ${selfies} selfies, ${specials} special, ${pets} pets, ${videos} video`;
 }
 
@@ -68,9 +69,11 @@ function openLightbox(idx, list){
   currentList = list;
   activeIndex = idx;
   const it = currentList[activeIndex];
-  lbImg.src = it.src;
+
+  // 👇 bruk full-versjonen i lightbox
+  lbImg.src = it.full || it.src;
   lbTitle.textContent = it.title || "";
-  lbTags.textContent = `${it.category} · ${it.subcategory}`;
+  lbTags.textContent = `${it.category} · ${it.subcategory || ""}`;
   lb.classList.add('open');
 }
 
@@ -86,22 +89,27 @@ lbClose.addEventListener('click', closeLightbox);
 lbPrev.addEventListener('click', ()=> nav(-1));
 lbNext.addEventListener('click', ()=> nav(1));
 
-// Lukk på Escape
 document.addEventListener('keydown', (e)=>{
   if(e.key === "Escape") closeLightbox();
 });
 
 // --- Init ---
-async function init(){
-  const res = await fetch(DATA_URL);
-  const all = await res.json();
-  all.sort(by('title'));
+async function loadGallery(url, container){
+  const res = await fetch(url);
+  const items = await res.json();
+  items.sort(by('title'));
+  renderGallery(items, container);
+  return items;
+}
 
-  renderGallery(all.filter(it=>it.category==="selfie" && it.subcategory==="Roger"), selfieRoger);
-  renderGallery(all.filter(it=>it.category==="selfie" && it.subcategory==="Louise"), selfieLouise);
-  renderGallery(all.filter(it=>it.category==="special"), specialCreative);
-  renderGallery(all.filter(it=>it.category==="pets" && it.subcategory==="cat"), petsCat);
-  renderGallery(all.filter(it=>it.category==="video"), videoGallery);
+async function init(){
+  const all = [];
+
+  all.push(...await loadGallery('./assets/data/selfieRoger.json', selfieRoger));
+  all.push(...await loadGallery('./assets/data/selfieLouise.json', selfieLouise));
+  all.push(...await loadGallery('./assets/data/specialCreative.json', specialCreative));
+  all.push(...await loadGallery('./assets/data/petsCat.json', petsCat));
+  all.push(...await loadGallery('./assets/data/videos.json', videoGallery));
 
   updateStats(all);
 }
@@ -183,17 +191,15 @@ function renderSubcategoryFilters(category){
 
         const containerId = `${category}${sub}`;
         const el = document.getElementById(containerId);
-       if(el){
-  el.parentElement.style.display = "block";
-  el.classList.add("gallery", "sub-gallery");
-}
-
+        if(el){
+          el.parentElement.style.display = "block";
+          el.classList.add("gallery", "sub-gallery");
+        }
       }
     });
     subcategoryFilters.appendChild(btn);
   });
 }
-
 
 init();
 loadPrompts();

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "petsCat-cat_lion_duo1",
+    "src": "./assets/images/petsCat/full/cat_lion_duo1.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo1.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo1.webp",
+    "title": "cat_lion_duo1",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_lion_duo2",
+    "src": "./assets/images/petsCat/full/cat_lion_duo2.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo2.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo2.webp",
+    "title": "cat_lion_duo2",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_lion_duo3",
+    "src": "./assets/images/petsCat/full/cat_lion_duo3.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo3.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo3.webp",
+    "title": "cat_lion_duo3",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_lion_duo4",
+    "src": "./assets/images/petsCat/full/cat_lion_duo4.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo4.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo4.webp",
+    "title": "cat_lion_duo4",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_lion_duo5",
+    "src": "./assets/images/petsCat/full/cat_lion_duo5.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo5.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo5.webp",
+    "title": "cat_lion_duo5",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_lion_duo6",
+    "src": "./assets/images/petsCat/full/cat_lion_duo6.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_lion_duo6.webp",
+    "full": "./assets/images/petsCat/full/cat_lion_duo6.webp",
+    "title": "cat_lion_duo6",
+    "category": "petsCat"
+  },
+  {
+    "id": "petsCat-cat_shadow1",
+    "src": "./assets/images/petsCat/full/cat_shadow1.webp",
+    "thumb": "./assets/images/petsCat/thumbs/cat_shadow1.webp",
+    "full": "./assets/images/petsCat/full/cat_shadow1.webp",
+    "title": "cat_shadow1",
+    "category": "petsCat"
+  }
+]

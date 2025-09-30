@@ -1,0 +1,34 @@
+[
+  {
+    "id": "videos-forest_wolf4",
+    "src": "./assets/images/videos/full/forest_wolf4.webp",
+    "thumb": "./assets/images/videos/thumbs/forest_wolf4.webp",
+    "full": "./assets/images/videos/full/forest_wolf4.webp",
+    "title": "forest_wolf4",
+    "category": "videos"
+  },
+  {
+    "id": "videos-man_transform_robot_thumb",
+    "src": "./assets/images/videos/full/man_transform_robot_thumb.webp",
+    "thumb": "./assets/images/videos/thumbs/man_transform_robot_thumb.webp",
+    "full": "./assets/images/videos/full/man_transform_robot_thumb.webp",
+    "title": "man_transform_robot_thumb",
+    "category": "videos"
+  },
+  {
+    "id": "videos-man_transform_superman_thumb",
+    "src": "./assets/images/videos/full/man_transform_superman_thumb.webp",
+    "thumb": "./assets/images/videos/thumbs/man_transform_superman_thumb.webp",
+    "full": "./assets/images/videos/full/man_transform_superman_thumb.webp",
+    "title": "man_transform_superman_thumb",
+    "category": "videos"
+  },
+  {
+    "id": "videos-soldier_tactical1",
+    "src": "./assets/images/videos/full/soldier_tactical1.webp",
+    "thumb": "./assets/images/videos/thumbs/soldier_tactical1.webp",
+    "full": "./assets/images/videos/full/soldier_tactical1.webp",
+    "title": "soldier_tactical1",
+    "category": "videos"
+  }
+]

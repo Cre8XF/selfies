@@ -1,0 +1,15 @@
+{
+  "name": "selfies",
+  "version": "1.0.0",
+  "description": "Image gallery optimizer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:images": "node tools/img-build.mjs"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "globby": "^14.0.2",
+    "sharp": "^0.33.2"
+  }
+}

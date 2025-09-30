@@ -1,0 +1,202 @@
+[
+  {
+    "id": "selfieRoger-business_man_chair1",
+    "src": "./assets/images/selfieRoger/full/business_man_chair1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_chair1.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_chair1.webp",
+    "title": "business_man_chair1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_chair2",
+    "src": "./assets/images/selfieRoger/full/business_man_chair2.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_chair2.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_chair2.webp",
+    "title": "business_man_chair2",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait1",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait1.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait1.webp",
+    "title": "business_man_dark_portrait1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait2",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait2.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait2.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait2.webp",
+    "title": "business_man_dark_portrait2",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait3",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait3.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait3.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait3.webp",
+    "title": "business_man_dark_portrait3",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait4",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait4.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait4.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait4.webp",
+    "title": "business_man_dark_portrait4",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait5",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait5.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait5.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait5.webp",
+    "title": "business_man_dark_portrait5",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_portrait6",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_portrait6.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_portrait6.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_portrait6.webp",
+    "title": "business_man_dark_portrait6",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_dark_redshirt",
+    "src": "./assets/images/selfieRoger/full/business_man_dark_redshirt.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_dark_redshirt.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_dark_redshirt.webp",
+    "title": "business_man_dark_redshirt",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_office",
+    "src": "./assets/images/selfieRoger/full/business_man_office.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_office.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_office.webp",
+    "title": "business_man_office",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait1",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait1.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait1.webp",
+    "title": "business_man_portrait1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait10",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait10.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait10.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait10.webp",
+    "title": "business_man_portrait10",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait2",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait2.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait2.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait2.webp",
+    "title": "business_man_portrait2",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait3",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait3.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait3.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait3.webp",
+    "title": "business_man_portrait3",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait8",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait8.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait8.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait8.webp",
+    "title": "business_man_portrait8",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-business_man_portrait9",
+    "src": "./assets/images/selfieRoger/full/business_man_portrait9.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/business_man_portrait9.webp",
+    "full": "./assets/images/selfieRoger/full/business_man_portrait9.webp",
+    "title": "business_man_portrait9",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-casual_man_cafe",
+    "src": "./assets/images/selfieRoger/full/casual_man_cafe.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/casual_man_cafe.webp",
+    "full": "./assets/images/selfieRoger/full/casual_man_cafe.webp",
+    "title": "casual_man_cafe",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_closeup1",
+    "src": "./assets/images/selfieRoger/full/gritty_closeup1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_closeup1.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_closeup1.webp",
+    "title": "gritty_closeup1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_closeup2",
+    "src": "./assets/images/selfieRoger/full/gritty_closeup2.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_closeup2.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_closeup2.webp",
+    "title": "gritty_closeup2",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_fireplace1",
+    "src": "./assets/images/selfieRoger/full/gritty_fireplace1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_fireplace1.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_fireplace1.webp",
+    "title": "gritty_fireplace1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_portrait_wall",
+    "src": "./assets/images/selfieRoger/full/gritty_portrait_wall.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_portrait_wall.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_portrait_wall.webp",
+    "title": "gritty_portrait_wall",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_portrait_wall1",
+    "src": "./assets/images/selfieRoger/full/gritty_portrait_wall1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_portrait_wall1.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_portrait_wall1.webp",
+    "title": "gritty_portrait_wall1",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_portrait_wall2",
+    "src": "./assets/images/selfieRoger/full/gritty_portrait_wall2.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_portrait_wall2.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_portrait_wall2.webp",
+    "title": "gritty_portrait_wall2",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_portrait_wall3",
+    "src": "./assets/images/selfieRoger/full/gritty_portrait_wall3.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_portrait_wall3.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_portrait_wall3.webp",
+    "title": "gritty_portrait_wall3",
+    "category": "selfieRoger"
+  },
+  {
+    "id": "selfieRoger-gritty_whiskey1",
+    "src": "./assets/images/selfieRoger/full/gritty_whiskey1.webp",
+    "thumb": "./assets/images/selfieRoger/thumbs/gritty_whiskey1.webp",
+    "full": "./assets/images/selfieRoger/full/gritty_whiskey1.webp",
+    "title": "gritty_whiskey1",
+    "category": "selfieRoger"
+  }
+]
