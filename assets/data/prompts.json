@@ -1,0 +1,34 @@
+[
+  {
+    "id": "prompt-001",
+    "title": "Cyberpunk Neon Portrait",
+    "description": "Hyperrealistic cinematic portrait glowing with neon lights, futuristic vibe.",
+    "category": "portrait",
+    "tags": ["cyberpunk", "neon", "portrait"],
+    "exampleImage": "/assets/images/cyberpunk_neon_portrait3.png"
+  },
+  {
+    "id": "prompt-002",
+    "title": "Apocalypse Warrior",
+    "description": "A lone soldier stands tall in a ruined city, rifle in hand, smoke and fire in the background.",
+    "category": "action",
+    "tags": ["apocalypse", "soldier", "cinematic"],
+    "exampleImage": "/assets/images/apocalypse_city_standoff.png"
+  },
+  {
+    "id": "prompt-003",
+    "title": "Fantasy Lightning Hero",
+    "description": "Epic fantasy warrior with glowing eyes, sword raised as lightning strikes around him.",
+    "category": "fantasy",
+    "tags": ["fantasy", "lightning", "hero"],
+    "exampleImage": "/assets/images/elemental_lightning1.png"
+  },
+  {
+    "id": "prompt-004",
+    "title": "Wolf Companion in Forest",
+    "description": "Mysterious night scene, man and wolf emerging from foggy forest under moonlight.",
+    "category": "fantasy",
+    "tags": ["forest", "wolf", "mystic"],
+    "exampleImage": "/assets/images/forest_wolf1.png"
+  }
+]

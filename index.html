@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PixArt Galleri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>PixArt Galleri</h1>
+            <p>Utforsk mine selfies, kreative AI-bilder og eksperimenter.
+                Se etter kategori eller dyk ned i prompts-samlingen.</p>
+        </div>
+        <div class="hero-filters">
+            <div class="filter-row">
+                <button class="filter-btn" data-category="all">Vis alle</button>
+                <button class="filter-btn" data-category="selfie">Selfies</button>
+                <button class="filter-btn" data-category="special">Special Creative</button>
+                <button class="filter-btn" data-category="pets">Pets</button>
+                <button class="filter-btn" data-category="video">Videoer</button>
+            </div>
+            <div class="filter-row" id="subcategoryFilters"></div>
+        </div>
+    </header>
+
+    <!-- Stats -->
+    <section id="stats" class="stats" aria-live="polite"></section>
+
+    <main>
+        <!-- Selfies -->
+        <section id="selfieSection">
+            <h2>Selfies</h2>
+            <div class="subsection">
+                <h3>Roger</h3>
+                <div id="selfieRoger" class="gallery"></div>
+            </div>
+            <div class="subsection">
+                <h3>Louise</h3>
+                <div id="selfieLouise" class="gallery"></div>
+            </div>
+        </section>
+
+        <!-- Special -->
+        <section id="specialSection">
+            <h2>Special Creative</h2>
+            <div id="specialCreative" class="gallery"></div>
+        </section>
+
+        <!-- Pets -->
+        <section id="petsSection">
+            <h2>Pets</h2>
+            <div id="petsCat" class="gallery"></div>
+        </section>
+
+        <!-- Prompts -->
+        <section id="promptsSection">
+            <h2>Prompts</h2>
+            <div id="promptsGallery" class="prompt-gallery"></div>
+        </section>
+
+        <!-- Videoer -->
+        <section id="videoSection">
+            <h2>Videoer</h2>
+            <div id="videoGallery" class="gallery"></div>
+        </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Forhåndsvisning av bilde">
+        <button class="lb-btn lb-close" id="lbClose" aria-label="Lukk">✕</button>
+        <button class="lb-btn lb-prev" id="lbPrev" aria-label="Forrige">◀</button>
+        <button class="lb-btn lb-next" id="lbNext" aria-label="Neste">▶</button>
+        <div class="lb-inner">
+            <img id="lbImg" alt="Forhåndsvisning" />
+            <div class="lb-meta">
+                <h2 id="lbTitle"></h2>
+                <p id="lbTags"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kort-mal -->
+    <template id="cardTpl">
+        <figure class="card">
+            <img class="thumb" loading="lazy" alt="" data-index="" />
+            <figcaption class="caption">
+                <span class="title"></span>
+                <span class="tags"></span>
+            </figcaption>
+        </figure>
+    </template>
+
+    <script src="./assets/js/script.js" type="module"></script>
+</body>
+
+</html>
