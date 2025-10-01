@@ -326,5 +326,78 @@
     "full": "./assets/images/selfieLouise/full/louise_sunset_field7.webp",
     "title": "louise_sunset_field7",
     "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-painted_sisters",
+    "src": "./assets/images/specialCreative/full/enchanted-painted-sisters.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-painted-sisters.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-painted-sisters.webp",
+    "title": "enchanted-painted-sisters",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters1",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters1.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters1.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters1.webp",
+    "title": "enchanted-sisters1",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters2",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters2.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters2.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters2.webp",
+    "title": "enchanted-sisters2",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters3",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters3.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters3.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters3.webp",
+    "title": "enchanted-sisters3",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters4",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters4.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters4.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters4.webp",
+    "title": "enchanted-sisters4",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters5",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters5.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters5.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters5.webp",
+    "title": "enchanted-sisters5",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters6",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters6.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters6.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters6.webp",
+    "title": "enchanted-sisters6",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters7",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters7.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters7.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters7.webp",
+    "title": "enchanted-sisters7",
+    "category": "selfieLouise"
+  },
+  {
+    "id": "specialCreative-enchanted_sisters",
+    "src": "./assets/images/specialCreative/full/enchanted-sisters.webp",
+    "thumb": "./assets/images/specialCreative/thumbs/enchanted-sisters.webp",
+    "full": "./assets/images/specialCreative/full/enchanted-sisters.webp",
+    "title": "enchanted-sisters",
+    "category": "selfieLouise"
   }
+
 ]
